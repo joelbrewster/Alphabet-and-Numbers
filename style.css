@@ -1,0 +1,54 @@
+html, body {
+		height: 100%;
+		width: 100%;
+}
+
+html {
+		display: table;
+		margin: auto;
+}
+
+body {
+		display: table-cell;
+		background-color: black;
+		/* margin: 0; */
+		/* padding: 0; */
+		width: 80%;
+		height: 80%;
+		margin auto;
+		/* margin-left:auto; */
+		/* margin-right:auto; */
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center;
+		background-size: cover;
+		-webkit-transition: 0.2s;
+		transition: 0.2s;
+		-moz-transition: 0.2s;
+		transition-timing-function: ease-in;
+		-moz-transition-timing-function: ease-in;
+}
+.container {
+		/* display: inline-block; */
+		/* vertical-align: middle; */
+}
+
+p {
+		margin-top: 0;
+		margin-bottom: 0;
+		color: #39FF14;
+		text-shadow: 4px 4px 8px #DA14FF;
+		font-size: 25em;
+		font-family: 'Coming Soon', cursive;
+		text-align: center;
+		width: 100%;
+		font-weight: bold
+}
+
+.keycode-display {
+		display: none;
+}
+
+input {
+		position: absolute;
+}
