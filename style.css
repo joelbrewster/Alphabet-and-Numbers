@@ -11,13 +11,9 @@ html {
 body {
 		display: table-cell;
 		background-color: black;
-		/* margin: 0; */
-		/* padding: 0; */
 		width: 80%;
 		height: 80%;
 		margin auto;
-		/* margin-left:auto; */
-		/* margin-right:auto; */
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-position: center;
@@ -29,8 +25,6 @@ body {
 		-moz-transition-timing-function: ease-in;
 }
 .container {
-		/* display: inline-block; */
-		/* vertical-align: middle; */
 }
 
 p {

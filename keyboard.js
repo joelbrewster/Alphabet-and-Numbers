@@ -40,11 +40,13 @@ var keyCodes = {
 
 var body = document.querySelector('body');
 
-body.onkeydown = function (e) {
+body.onkeyup = function (e) {
 
   if (keyCodes[e.keyCode]) {
+    var num = Math.floor(Math.random() * 3) + 1;
     var key = keyCodes[e.keyCode];
-    var image = 'images/' + key + '.jpg';
+    var image = 'images/' + key + num + '.jpg';
+    console.log(image);
 
     document.querySelector('.text-display').innerHTML = keyCodes[e.keyCode];
     body.style.backgroundImage = 'url(' + image + ')';
